@@ -1,0 +1,23 @@
+.wrapper {
+    display:grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 1em;
+}
+.wrapper > div {
+   /*background:#eee;*/
+   background:green;
+   padding:1em; 
+}
+
+.wrapper > div:nth-child(even){
+    /*background:#ddd;*/
+	background: blue;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
